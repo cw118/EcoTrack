@@ -1,0 +1,4 @@
+#Sat Jan 08 12:38:38 EST 2022
+base.0=C\:\\Users\\GJN\\AndroidStudioProjects\\eco_track\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
