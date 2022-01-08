@@ -93,13 +93,19 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -128.50,
                       z: 0,
-                      child: FlatButton(
-                          onPressed: () {},
-                        child: Text('Motorcycle'),
-                          color: Color.fromARGB(255, 229, 229, 229),
+                    child: TextButton(
+                      onPressed: () {
+                        int value1 = 15;
+                      },
+                      child: Text('Motorcycle',
+                      style: TextStyle(
+                        color:Colors.black
                       )),
-
-                ),
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                      ),
+                    ))
+                  ),
 
                 //Small compact button
                 Positioned(
@@ -113,12 +119,18 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -64.50,
                       z: 0,
-                      child: FlatButton(
-                        onPressed: () {},
-                        child: Text('Small compact'),
-                        color: Color.fromARGB(255, 229, 229, 229),
-                      )),
-
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 35;
+                        },
+                        child: Text('Small Compact',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
 
 
@@ -134,12 +146,18 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -0.50,
                       z: 0,
-                      child: FlatButton(
-                        onPressed: () {},
-                        child: Text('Mid sized'),
-                        color: Color.fromARGB(255, 229, 229, 229),
-                      )),
-
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 60;
+                        },
+                        child: Text('Mid sized',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
 
                 //Large car btn
@@ -154,32 +172,18 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 0.00,
                       y: 63.50,
                       z: 0,
-                      child: FlatButton(
-                        onPressed: () {},
-                        child: Text('Large'),
-                        color: Color.fromARGB(255, 229, 229, 229),
-                      )),
-
-                ),
-
-                //Pickup truck btn
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 295.0,
-                  height: 51.0,
-                  child: TransformHelper.translate(
-                      x: 0.00,
-                      y: 135.50,
-                      z: 0,
-                      child: FlatButton(
-                        onPressed: () {},
-                        child: Text('Pick up truck or Full-sized van'),
-                        color: Color.fromARGB(255, 229, 229, 229),
-                      )),
-
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 75;
+                        },
+                        child: Text('Large',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
 
                 Positioned(

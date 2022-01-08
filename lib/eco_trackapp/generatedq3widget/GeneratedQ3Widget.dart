@@ -80,6 +80,8 @@ class GeneratedQ3Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedHowdoyougettoschoolworkWidget()),
                 ),
+
+                //Car btn
                 Positioned(
                   left: null,
                   top: null,
@@ -91,18 +93,22 @@ class GeneratedQ3Widget extends StatelessWidget {
                       x: 1.00,
                       y: -89.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget3()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 50;
+                        },
+                        child: Text('Car',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50, y: -86.00, z: 0, child: GeneratedCarWidget()),
-                ),
+
+
+                //Public transport
                 Positioned(
                   left: null,
                   top: null,
@@ -114,21 +120,22 @@ class GeneratedQ3Widget extends StatelessWidget {
                       x: 1.00,
                       y: -25.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget3()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 25;
+                        },
+                        child: Text('Public Transport',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: -23.50,
-                      z: 0,
-                      child: GeneratedPublictransportSchoolBusWidget()),
-                ),
+
+
+                //Carpool
                 Positioned(
                   left: null,
                   top: null,
@@ -140,18 +147,22 @@ class GeneratedQ3Widget extends StatelessWidget {
                       x: 1.00,
                       y: 38.50,
                       z: 0,
-                      child: GeneratedRectangle9Widget3()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 20;
+                        },
+                        child: Text('Carpool',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50, y: 42.00, z: 0, child: GeneratedCarpoolWidget()),
-                ),
+
+
+                //Walk btn
                 Positioned(
                   left: null,
                   top: null,
@@ -163,18 +174,22 @@ class GeneratedQ3Widget extends StatelessWidget {
                       x: 0.00,
                       y: 102.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget3()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 0;
+                        },
+                        child: Text('Walk',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50, y: 106.00, z: 0, child: GeneratedWalkWidget()),
-                ),
+
+
+                //Bicycle button
                 Positioned(
                   left: null,
                   top: null,
@@ -186,21 +201,20 @@ class GeneratedQ3Widget extends StatelessWidget {
                       x: 0.00,
                       y: 166.50,
                       z: 0,
-                      child: GeneratedRectangle11Widget2()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 0;
+                        },
+                        child: Text('Bicycle / rollerblade / skateboard',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 1.00,
-                      y: 168.50,
-                      z: 0,
-                      child: GeneratedBicyclerollerbladeskateboardWidget()),
-                ),
+
                 Positioned(
                   left: null,
                   top: null,
