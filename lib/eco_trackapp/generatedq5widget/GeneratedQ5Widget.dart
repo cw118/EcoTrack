@@ -52,7 +52,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget5()),
                 ),
@@ -65,7 +65,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated59MinimalistLivingWidget()),
                 ),
@@ -83,7 +83,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
                       child: GeneratedHowmanypeopleliveinyourhouseholdWidget()),
                 ),
 
-                //1 person
+                // 1 person btn
                 Positioned(
                   left: null,
                   top: null,
@@ -110,7 +110,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
       ),
 
 
-                //2-3ppl
+                // 2-3 ppl btn
                 Positioned(
                   left: null,
                   top: null,
@@ -137,7 +137,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
                 ),
 
 
-                //4-5 ppl
+                // 4-5 ppl btn
                 Positioned(
                   left: null,
                   top: null,
@@ -164,7 +164,7 @@ class _GeneratedQ5WidgetState extends State<GeneratedQ5Widget> {
                 ),
 
 
-                //5 ppl
+                // 5 ppl btn
                 Positioned(
                   left: null,
                   top: null,

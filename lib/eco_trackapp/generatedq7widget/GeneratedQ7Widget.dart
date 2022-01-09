@@ -52,7 +52,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget9()),
                 ),
@@ -65,7 +65,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated79WasteConsciousWidget()),
                 ),
@@ -83,7 +83,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                       child: GeneratedDoesyourhouseholdrecycleWidget()),
                 ),
 
-                //Always
+                // Always btn
                 Positioned(
                   left: null,
                   top: null,
@@ -109,7 +109,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                       ))
                 ),
 
-                //Sometimes btn
+                // Sometimes btn
                 Positioned(
                   left: null,
                   top: null,
@@ -136,7 +136,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                 ),
 
 
-                //Rarely
+                // Rarely btn
                 Positioned(
                   left: null,
                   top: null,
@@ -163,7 +163,7 @@ class _GeneratedQ7WidgetState extends State<GeneratedQ7Widget> {
                 ),
 
 
-                //Never
+                // Never btn
                 Positioned(
                   left: null,
                   top: null,

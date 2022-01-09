@@ -124,7 +124,7 @@ class _GeneratedQ1WidgetState extends State<GeneratedQ1Widget> {
                             ))
                     ),
 
-                    //Small compact button
+                    // Small compact btn
                     Positioned(
                         left: null,
                         top: null,
@@ -153,8 +153,7 @@ class _GeneratedQ1WidgetState extends State<GeneratedQ1Widget> {
                             ))
                     ),
 
-
-                    //Midsized car btn
+                    // Midsized car btn
                     Positioned(
                         left: null,
                         top: null,
@@ -183,7 +182,7 @@ class _GeneratedQ1WidgetState extends State<GeneratedQ1Widget> {
                             ))
                     ),
 
-                    //Large car btn
+                    // Large car btn
                     Positioned(
                         left: null,
                         top: null,
@@ -231,7 +230,7 @@ class _GeneratedQ1WidgetState extends State<GeneratedQ1Widget> {
         ));
   }
 
-  //await return value to next screen
+  // await return value to next screen
   void _sendDataToSecondScreen(BuildContext context) async {
     final result = await Navigator.push(
         context,

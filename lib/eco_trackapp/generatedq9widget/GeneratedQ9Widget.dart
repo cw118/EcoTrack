@@ -56,7 +56,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                       height: 34.0,
                       child: TransformHelper.translate(
                           x: -124.00,
-                          y: -344.00,
+                          y: -295.00,
                           z: 0,
                           child: GeneratedBackbuttonWidget8()),
                     ),
@@ -69,7 +69,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                       height: 50.0,
                       child: TransformHelper.translate(
                           x: -1.00,
-                          y: -265.00,
+                          y: -250.00,
                           z: 0,
                           child: Generated99WasteConsciousWidget()),
                     ),
@@ -88,7 +88,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           GeneratedHowmanymealsperweekdoyoueatmeatorfishWidget()),
                     ),
 
-                    //0 meals
+                    // 0 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -115,7 +115,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                     ),
 
 
-                    //1-3 meals
+                    // 1-3 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -142,7 +142,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                     ),
 
 
-                    //4-6 meals
+                    // 4-6 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -168,7 +168,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           ))
                     ),
 
-                    //7-10 meals
+                    // 7-10 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -194,7 +194,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           ))
                     ),
 
-                    //10 meals
+                    // 10 meals btn
                     Positioned(
                       left: null,
                       top: null,

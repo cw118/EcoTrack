@@ -54,7 +54,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget4()),
                 ),
@@ -67,7 +67,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated39CleanTravellerWidget()),
                 ),
@@ -85,7 +85,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                       child: GeneratedHowdoyougettoschoolworkWidget()),
                 ),
 
-                //Car btn
+                // Car btn
                 Positioned(
                   left: null,
                   top: null,
@@ -112,7 +112,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                 ),
 
 
-                //Public transport
+                // Public transport btn
                 Positioned(
                   left: null,
                   top: null,
@@ -139,7 +139,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                 ),
 
 
-                //Carpool
+                // Carpool btn
                 Positioned(
                   left: null,
                   top: null,
@@ -166,7 +166,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                 ),
 
 
-                //Walk btn
+                // Walk btn
                 Positioned(
                   left: null,
                   top: null,
@@ -193,7 +193,7 @@ class _GeneratedQ3WidgetState extends State<GeneratedQ3Widget> {
                 ),
 
 
-                //Bicycle button
+                // Bicycle/rollerblade/skateboard btn
                 Positioned(
                   left: null,
                   top: null,

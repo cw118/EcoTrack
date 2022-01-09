@@ -49,10 +49,10 @@ class GeneratedLandingpage1Widget extends StatelessWidget {
                     width: 246.0,
                     height: 51.0,
                     child: TransformHelper.translate(
-                        x: 1.50,
-                        y: -140.50,
+                        x: 3.50,
+                        y: -275.00,
                         z: 0,
-                        child: GeneratedWelcometoWidget()),
+                        child: GeneratedTapanywheretogetstartedWidget()),
                   ),
                   Positioned(
                     left: null,
@@ -62,10 +62,10 @@ class GeneratedLandingpage1Widget extends StatelessWidget {
                     width: 246.0,
                     height: 51.0,
                     child: TransformHelper.translate(
-                        x: 3.50,
-                        y: -333.50,
+                        x: 1.50,
+                        y: -140.50,
                         z: 0,
-                        child: GeneratedTapanywheretogetstartedWidget()),
+                        child: GeneratedWelcometoWidget()),
                   ),
                   Positioned(
                     left: null,
