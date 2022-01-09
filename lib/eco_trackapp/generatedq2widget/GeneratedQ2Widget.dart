@@ -50,7 +50,7 @@ class GeneratedQ2Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget2()),
                 ),
@@ -63,7 +63,7 @@ class GeneratedQ2Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated29CleanTravellerWidget()),
                 ),
@@ -81,6 +81,8 @@ class GeneratedQ2Widget extends StatelessWidget {
                       child:
                           GeneratedWheredidyougoonvacationwithinthelastyearWidget()),
                 ),
+
+                // No vacation btn
                 Positioned(
                   left: null,
                   top: null,
@@ -92,21 +94,26 @@ class GeneratedQ2Widget extends StatelessWidget {
                       x: 1.00,
                       y: -89.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget1()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 0;
+                        },
+                        child: Text('No vacation',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: -87.50,
-                      z: 0,
-                      child: GeneratedNovacationWidget()),
-                ),
+
+                // Domestic, own region btn
                 Positioned(
                   left: null,
                   top: null,
@@ -118,21 +125,26 @@ class GeneratedQ2Widget extends StatelessWidget {
                       x: 1.00,
                       y: -25.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget1()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 10;
+                        },
+                        child: Text('Domestic, own region',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: -23.50,
-                      z: 0,
-                      child: GeneratedDomesticownregionWidget()),
-                ),
+
+                // Domestic, different region btn
                 Positioned(
                   left: null,
                   top: null,
@@ -144,21 +156,26 @@ class GeneratedQ2Widget extends StatelessWidget {
                       x: 1.00,
                       y: 38.50,
                       z: 0,
-                      child: GeneratedRectangle9Widget1()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 30;
+                        },
+                        child: Text('Domestic, different region',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: 40.50,
-                      z: 0,
-                      child: GeneratedDomesticdifferentregionWidget()),
-                ),
+
+                // International btn
                 Positioned(
                   left: null,
                   top: null,
@@ -170,21 +187,26 @@ class GeneratedQ2Widget extends StatelessWidget {
                       x: 0.00,
                       y: 102.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget1()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 40;
+                        },
+                        child: Text('International',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50,
-                      y: 106.00,
-                      z: 0,
-                      child: GeneratedInternationalWidget()),
-                ),
+
+                // Intercontinental btn
                 Positioned(
                   left: null,
                   top: null,
@@ -196,20 +218,23 @@ class GeneratedQ2Widget extends StatelessWidget {
                       x: 0.00,
                       y: 166.50,
                       z: 0,
-                      child: GeneratedRectangle11Widget1()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50,
-                      y: 170.00,
-                      z: 0,
-                      child: GeneratedIntercontinentalWidget()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 70;
+                        },
+                        child: Text('Intercontinental',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
                 Positioned(
                   left: null,

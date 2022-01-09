@@ -48,7 +48,7 @@ class GeneratedQ6Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget6()),
                 ),
@@ -61,7 +61,7 @@ class GeneratedQ6Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated69MinimalistLivingWidget()),
                 ),
@@ -78,6 +78,8 @@ class GeneratedQ6Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedWhattypeofhomedoyouliveinWidget()),
                 ),
+
+                // Apartment btn
                 Positioned(
                   left: null,
                   top: null,
@@ -89,21 +91,26 @@ class GeneratedQ6Widget extends StatelessWidget {
                       x: 1.00,
                       y: -89.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget5()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 20;
+                        },
+                        child: Text('Apartment',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -86.00,
-                      z: 0,
-                      child: GeneratedApartmentWidget()),
-                ),
+
+                // Detached btn
                 Positioned(
                   left: null,
                   top: null,
@@ -115,8 +122,26 @@ class GeneratedQ6Widget extends StatelessWidget {
                       x: 1.00,
                       y: -25.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget5()),
+                      child: TextButton(
+                        onPressed: () {
+                          // int value = 0;
+                        },
+                        child: Text('Detached',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
+
+                // Trailer btn
                 Positioned(
                   left: null,
                   top: null,
@@ -125,11 +150,29 @@ class GeneratedQ6Widget extends StatelessWidget {
                   width: 280.0,
                   height: 38.0,
                   child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -22.00,
+                      x: 1.00,
+                      y: 38.50,
                       z: 0,
-                      child: GeneratedDetachedWidget()),
+                      child: TextButton(
+                        onPressed: () {
+                          // int value = 0;
+                        },
+                        child: Text('Trailer',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
+
+                // House btn
                 Positioned(
                   left: null,
                   top: null,
@@ -138,23 +181,57 @@ class GeneratedQ6Widget extends StatelessWidget {
                   width: 295.0,
                   height: 51.0,
                   child: TransformHelper.translate(
-                      x: 1.00,
+                      x: 0.00,
                       y: 102.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget5()),
+                      child: TextButton(
+                        onPressed: () {
+                          // int value = 0;
+                        },
+                        child: Text('House',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
+
+                // Semi-detached btn
                 Positioned(
                   left: null,
                   top: null,
                   right: null,
                   bottom: null,
-                  width: 280.0,
-                  height: 38.0,
+                  width: 295.0,
+                  height: 51.0,
                   child: TransformHelper.translate(
-                      x: 3.50,
-                      y: 106.00,
+                      x: 0.00,
+                      y: 166.50,
                       z: 0,
-                      child: GeneratedTrailerWidget()),
+                      child: TextButton(
+                        onPressed: () {
+                          // int value = 0;
+                        },
+                        child: Text('Semi-detached',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
                 Positioned(
                   left: null,
@@ -182,32 +259,7 @@ class GeneratedQ6Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedComponent5Widget4()),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 295.0,
-                  height: 51.0,
-                  child: TransformHelper.translate(
-                      x: 0.00,
-                      y: 38.50,
-                      z: 0,
-                      child: GeneratedRectangle9Widget4()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50,
-                      y: 42.00,
-                      z: 0,
-                      child: GeneratedSemiDetachedWidget()),
-                )
+
               ]),
         ),
       ),

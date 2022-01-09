@@ -100,11 +100,11 @@ class GeneratedAboutpageWidget extends StatelessWidget {
                   top: null,
                   right: null,
                   bottom: null,
-                  width: 385.0,
+                  width: 415.0,
                   height: 54.0,
                   child: TransformHelper.translate(
                       x: 0.00,
-                      y: 373.00,
+                      y: 315.00,
                       z: 0,
                       child: GeneratedNavigationbarWidget()),
                 )

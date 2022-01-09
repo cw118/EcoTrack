@@ -79,7 +79,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 70.0,
                         child: TransformHelper.translate(
                             x: 0.00,
-                            y: -155.00,
+                            y: -175.00,
                             z: 0,
                             child: GeneratedRectangle11Widget()),
                       ),
@@ -92,7 +92,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 21.0,
                         child: TransformHelper.translate(
                             x: 123.50,
-                            y: -155.50,
+                            y: -175.50,
                             z: 0,
                             child: GeneratedCheckmarkWidget()),
                       ),
@@ -105,7 +105,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 12.0,
                         child: TransformHelper.translate(
                             x: 123.00,
-                            y: -156.00,
+                            y: -176.00,
                             z: 0,
                             child: GeneratedVector1Widget()),
                       ),
@@ -118,7 +118,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 26.0,
                         child: TransformHelper.translate(
                             x: 0.50,
-                            y: -371.00,
+                            y: -351.00,
                             z: 0,
                             child: GeneratedAndroidBrowserFrameWidget6()),
                       ),
@@ -131,7 +131,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 44.0,
                         child: TransformHelper.translate(
                             x: 21.50,
-                            y: -154.00,
+                            y: -174.00,
                             z: 0,
                             child: GeneratedHaveameatlessmealWidget()),
                       ),
@@ -144,7 +144,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 70.0,
                         child: TransformHelper.translate(
                             x: 0.00,
-                            y: -51.00,
+                            y: -71.00,
                             z: 0,
                             child: GeneratedRectangle12Widget1()),
                       ),
@@ -157,7 +157,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 21.0,
                         child: TransformHelper.translate(
                             x: 123.50,
-                            y: -51.50,
+                            y: -71.50,
                             z: 0,
                             child: GeneratedCheckmarkWidget1()),
                       ),
@@ -170,7 +170,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 44.0,
                         child: TransformHelper.translate(
                             x: 21.50,
-                            y: -50.00,
+                            y: -70.00,
                             z: 0,
                             child: GeneratedRecycleorreuseWidget()),
                       ),
@@ -183,7 +183,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 70.0,
                         child: TransformHelper.translate(
                             x: 0.00,
-                            y: 52.00,
+                            y: 32.00,
                             z: 0,
                             child: GeneratedRectangle13Widget1()),
                       ),
@@ -196,7 +196,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 21.0,
                         child: TransformHelper.translate(
                             x: 123.50,
-                            y: 51.50,
+                            y: 31.50,
                             z: 0,
                             child: GeneratedCheckmarkWidget2()),
                       ),
@@ -209,7 +209,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 44.0,
                         child: TransformHelper.translate(
                             x: 21.50,
-                            y: 53.00,
+                            y: 33.00,
                             z: 0,
                             child: GeneratedCompostfoodscrapsWidget()),
                       ),
@@ -222,7 +222,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 80.0,
                         child: TransformHelper.translate(
                             x: -101.50,
-                            y: -155.00,
+                            y: -175.00,
                             z: 0,
                             child: GeneratedHabit6iconWidget()),
                       ),
@@ -235,7 +235,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 53.33333206176758,
                         child: TransformHelper.translate(
                             x: -101.50,
-                            y: -56.33,
+                            y: -76.33,
                             z: 0,
                             child: GeneratedHabit7iconWidget()),
                       ),
@@ -248,7 +248,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 60.0,
                         child: TransformHelper.translate(
                             x: -102.50,
-                            y: 50.00,
+                            y: 30.00,
                             z: 0,
                             child: GeneratedHabit8iconWidget()),
                       ),
@@ -261,7 +261,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 70.0,
                         child: TransformHelper.translate(
                             x: -4.00,
-                            y: 155.00,
+                            y: 135.00,
                             z: 0,
                             child: GeneratedRectangle14Widget()),
                       ),
@@ -274,7 +274,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 21.0,
                         child: TransformHelper.translate(
                             x: 119.50,
-                            y: 154.50,
+                            y: 134.50,
                             z: 0,
                             child: GeneratedCheckmarkWidget3()),
                       ),
@@ -287,7 +287,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 12.0,
                         child: TransformHelper.translate(
                             x: 119.00,
-                            y: 154.00,
+                            y: 134.00,
                             z: 0,
                             child: GeneratedVector2Widget()),
                       ),
@@ -300,7 +300,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 44.0,
                         child: TransformHelper.translate(
                             x: 17.50,
-                            y: 156.00,
+                            y: 136.00,
                             z: 0,
                             child: GeneratedCarpoolinsteadofdriveWidget()),
                       ),
@@ -313,7 +313,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 80.0,
                         child: TransformHelper.translate(
                             x: -104.50,
-                            y: 153.00,
+                            y: 133.00,
                             z: 0,
                             child: GeneratedHabit1iconWidget()),
                       ),
@@ -326,7 +326,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 70.0,
                         child: TransformHelper.translate(
                             x: -6.00,
-                            y: 258.00,
+                            y: 238.00,
                             z: 0,
                             child: GeneratedRectangle15Widget6()),
                       ),
@@ -339,7 +339,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 21.0,
                         child: TransformHelper.translate(
                             x: 117.50,
-                            y: 257.50,
+                            y: 237.50,
                             z: 0,
                             child: GeneratedCheckmarkWidget4()),
                       ),
@@ -352,7 +352,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 44.0,
                         child: TransformHelper.translate(
                             x: 15.50,
-                            y: 259.00,
+                            y: 239.00,
                             z: 0,
                             child: GeneratedWalkinsteadofdriveWidget()),
                       ),
@@ -365,7 +365,7 @@ class GeneratedHomepageWidget extends StatelessWidget {
                         height: 80.0,
                         child: TransformHelper.translate(
                             x: -101.50,
-                            y: 252.00,
+                            y: 232.00,
                             z: 0,
                             child: GeneratedHabit2iconWidget()),
                       )
@@ -376,11 +376,11 @@ class GeneratedHomepageWidget extends StatelessWidget {
                 top: null,
                 right: null,
                 bottom: null,
-                width: 385.0,
+                width: 415.0,
                 height: 54.0,
                 child: TransformHelper.translate(
                     x: 0.00,
-                    y: 371.00,
+                    y: 315.00,
                     z: 0,
                     child: GeneratedNavigationbarWidget2()),
               )

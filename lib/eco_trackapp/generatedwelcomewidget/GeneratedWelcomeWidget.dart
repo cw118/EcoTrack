@@ -36,6 +36,19 @@ class GeneratedWelcomeWidget extends StatelessWidget {
                   top: null,
                   right: null,
                   bottom: null,
+                  width: 67.0,
+                  height: 34.0,
+                  child: TransformHelper.translate(
+                      x: -128.00,
+                      y: -295.00,
+                      z: 0,
+                      child: GeneratedBackbuttonWidget()),
+                ),
+                Positioned(
+                  left: null,
+                  top: null,
+                  right: null,
+                  bottom: null,
                   width: 246.0,
                   height: 51.0,
                   child: TransformHelper.translate(
@@ -70,19 +83,6 @@ class GeneratedWelcomeWidget extends StatelessWidget {
                       y: 328.50,
                       z: 0,
                       child: GeneratedTakethequizbuttonWidget()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 67.0,
-                  height: 34.0,
-                  child: TransformHelper.translate(
-                      x: -128.00,
-                      y: -337.00,
-                      z: 0,
-                      child: GeneratedBackbuttonWidget()),
                 ),
                 Positioned(
                   left: null,
