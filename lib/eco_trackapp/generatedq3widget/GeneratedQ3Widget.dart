@@ -50,7 +50,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget4()),
                 ),
@@ -63,7 +63,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated39CleanTravellerWidget()),
                 ),
@@ -81,7 +81,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                       child: GeneratedHowdoyougettoschoolworkWidget()),
                 ),
 
-                //Car btn
+                // Car btn
                 Positioned(
                   left: null,
                   top: null,
@@ -108,7 +108,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                 ),
 
 
-                //Public transport
+                // Public transport btn
                 Positioned(
                   left: null,
                   top: null,
@@ -135,7 +135,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                 ),
 
 
-                //Carpool
+                // Carpool btn
                 Positioned(
                   left: null,
                   top: null,
@@ -162,7 +162,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                 ),
 
 
-                //Walk btn
+                // Walk btn
                 Positioned(
                   left: null,
                   top: null,
@@ -189,7 +189,7 @@ class GeneratedQ3Widget extends StatelessWidget {
                 ),
 
 
-                //Bicycle button
+                // Bicycle/rollerblade/skateboard btn
                 Positioned(
                   left: null,
                   top: null,

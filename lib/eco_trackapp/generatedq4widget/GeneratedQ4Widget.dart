@@ -48,7 +48,7 @@ class GeneratedQ4Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget3()),
                 ),
@@ -61,7 +61,7 @@ class GeneratedQ4Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated49MinimalistLivingWidget()),
                 ),
@@ -78,6 +78,8 @@ class GeneratedQ4Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedHowisyourhouseheatedWidget()),
                 ),
+
+                // Natural gas btn
                 Positioned(
                   left: null,
                   top: null,
@@ -89,21 +91,26 @@ class GeneratedQ4Widget extends StatelessWidget {
                       x: 1.00,
                       y: -89.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget2()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 30;
+                        },
+                        child: Text('Natural gas',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: -87.50,
-                      z: 0,
-                      child: GeneratedNaturalgasWidget()),
-                ),
+
+                // Electricity btn
                 Positioned(
                   left: null,
                   top: null,
@@ -115,21 +122,26 @@ class GeneratedQ4Widget extends StatelessWidget {
                       x: 1.00,
                       y: -25.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget2()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 40;
+                        },
+                        child: Text('Electricity',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -22.00,
-                      z: 0,
-                      child: GeneratedElectricityWidget()),
-                ),
+
+                // Oil btn
                 Positioned(
                   left: null,
                   top: null,
@@ -141,18 +153,26 @@ class GeneratedQ4Widget extends StatelessWidget {
                       x: 1.00,
                       y: 38.50,
                       z: 0,
-                      child: GeneratedRectangle9Widget2()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 50;
+                        },
+                        child: Text('Oil',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50, y: 42.00, z: 0, child: GeneratedOilWidget()),
-                ),
+
+                // Renewable energy btn
                 Positioned(
                   left: null,
                   top: null,
@@ -164,20 +184,23 @@ class GeneratedQ4Widget extends StatelessWidget {
                       x: 0.00,
                       y: 102.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget2()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 1.00,
-                      y: 104.50,
-                      z: 0,
-                      child: GeneratedRenewableenergyWidget()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 10;
+                        },
+                        child: Text('Renewable energy',
+                          style: TextStyle(
+                            color: Colors.black,
+                            height: 1.171875,
+                            fontSize: 18.0,
+                            fontFamily: 'Forum',
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229)),
+                        ),
+                      )),
                 ),
                 Positioned(
                   left: null,
