@@ -80,7 +80,7 @@ class GeneratedWelcomeWidget extends StatelessWidget {
                   height: 57.0,
                   child: TransformHelper.translate(
                       x: -0.50,
-                      y: 328.50,
+                      y: 255.00,
                       z: 0,
                       child: GeneratedTakethequizbuttonWidget()),
                 ),
