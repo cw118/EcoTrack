@@ -48,7 +48,7 @@ class GeneratedQ7Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget9()),
                 ),
@@ -61,7 +61,7 @@ class GeneratedQ7Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated79WasteConsciousWidget()),
                 ),
@@ -78,6 +78,8 @@ class GeneratedQ7Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedDoesyourhouseholdrecycleWidget()),
                 ),
+
+                // Always btn
                 Positioned(
                   left: null,
                   top: null,
@@ -89,21 +91,21 @@ class GeneratedQ7Widget extends StatelessWidget {
                       x: 1.00,
                       y: -89.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget8()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 0;
+                        },
+                        child: Text('Always',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -86.00,
-                      z: 0,
-                      child: GeneratedAlwaysWidget1()),
-                ),
+
+                // Sometimes btn
                 Positioned(
                   left: null,
                   top: null,
@@ -115,21 +117,22 @@ class GeneratedQ7Widget extends StatelessWidget {
                       x: 1.00,
                       y: -25.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget8()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 10;
+                        },
+                        child: Text('Sometimes',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -22.00,
-                      z: 0,
-                      child: GeneratedSometimesWidget1()),
-                ),
+
+
+                // Rarely btn
                 Positioned(
                   left: null,
                   top: null,
@@ -141,18 +144,22 @@ class GeneratedQ7Widget extends StatelessWidget {
                       x: 1.00,
                       y: 38.50,
                       z: 0,
-                      child: GeneratedRectangle9Widget7()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 15;
+                        },
+                        child: Text('Rarely',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50, y: 42.00, z: 0, child: GeneratedRarelyWidget1()),
-                ),
+
+
+                // Never btn
                 Positioned(
                   left: null,
                   top: null,
@@ -164,18 +171,21 @@ class GeneratedQ7Widget extends StatelessWidget {
                       x: 0.00,
                       y: 102.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget8()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 20;
+                        },
+                        child: Text('Never',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50, y: 106.00, z: 0, child: GeneratedNeverWidget1()),
-                ),
+
+
                 Positioned(
                   left: null,
                   top: null,

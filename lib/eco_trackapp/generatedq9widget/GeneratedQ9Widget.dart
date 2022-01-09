@@ -56,7 +56,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                       height: 34.0,
                       child: TransformHelper.translate(
                           x: -124.00,
-                          y: -344.00,
+                          y: -295.00,
                           z: 0,
                           child: GeneratedBackbuttonWidget8()),
                     ),
@@ -69,7 +69,7 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                       height: 50.0,
                       child: TransformHelper.translate(
                           x: -1.00,
-                          y: -265.00,
+                          y: -250.00,
                           z: 0,
                           child: Generated99WasteConsciousWidget()),
                     ),
@@ -87,6 +87,8 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           child:
                           GeneratedHowmanymealsperweekdoyoueatmeatorfishWidget()),
                     ),
+
+                    // 0 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -98,19 +100,22 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           x: 1.00,
                           y: -89.50,
                           z: 0,
-                          child: GeneratedRectangle7Widget7(
-                          )),
+                          child: TextButton(
+                            onPressed: () {
+                              int value = 20;
+                            },
+                            child: Text('0 meals',
+                                style: TextStyle(
+                                    color:Colors.black
+                                )),
+                            style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                            ),
+                          ))
                     ),
-                    Positioned(
-                      left: null,
-                      top: null,
-                      right: null,
-                      bottom: null,
-                      width: 280.0,
-                      height: 38.0,
-                      child: TransformHelper.translate(
-                          x: 3.50, y: -86.00, z: 0, child: Generated0Widget()),
-                    ),
+
+
+                    // 1-3 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -122,18 +127,22 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           x: 1.00,
                           y: -25.50,
                           z: 0,
-                          child: GeneratedRectangle8Widget7()),
+                          child: TextButton(
+                            onPressed: () {
+                              int value = 10;
+                            },
+                            child: Text('1-3 meals',
+                                style: TextStyle(
+                                    color:Colors.black
+                                )),
+                            style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                            ),
+                          ))
                     ),
-                    Positioned(
-                      left: null,
-                      top: null,
-                      right: null,
-                      bottom: null,
-                      width: 280.0,
-                      height: 38.0,
-                      child: TransformHelper.translate(
-                          x: 3.50, y: -22.00, z: 0, child: Generated13Widget()),
-                    ),
+
+
+                    // 4-6 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -145,18 +154,21 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           x: 1.00,
                           y: 38.50,
                           z: 0,
-                          child: GeneratedRectangle9Widget6()),
+                          child: TextButton(
+                            onPressed: () {
+                              int value = 20;
+                            },
+                            child: Text('4-6 meals',
+                                style: TextStyle(
+                                    color:Colors.black
+                                )),
+                            style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                            ),
+                          ))
                     ),
-                    Positioned(
-                      left: null,
-                      top: null,
-                      right: null,
-                      bottom: null,
-                      width: 280.0,
-                      height: 38.0,
-                      child: TransformHelper.translate(
-                          x: 3.50, y: 42.00, z: 0, child: Generated46Widget()),
-                    ),
+
+                    // 7-10 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -168,21 +180,21 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           x: 0.00,
                           y: 102.50,
                           z: 0,
-                          child: GeneratedRectangle10Widget7()),
+                          child: TextButton(
+                            onPressed: () {
+                              int value = 35;
+                            },
+                            child: Text('7-10 meals',
+                                style: TextStyle(
+                                    color:Colors.black
+                                )),
+                            style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                            ),
+                          ))
                     ),
-                    Positioned(
-                      left: null,
-                      top: null,
-                      right: null,
-                      bottom: null,
-                      width: 280.0,
-                      height: 38.0,
-                      child: TransformHelper.translate(
-                          x: 2.50,
-                          y: 106.00,
-                          z: 0,
-                          child: Generated710Widget()),
-                    ),
+
+                    // 10 meals btn
                     Positioned(
                       left: null,
                       top: null,
@@ -194,18 +206,20 @@ class _GeneratedQ9Widget extends State<GeneratedQ9Widget> {
                           x: 0.00,
                           y: 166.50,
                           z: 0,
-                          child: GeneratedRectangle11Widget4()),
+                          child: TextButton(
+                            onPressed: () {
+                              int value = 50;
+                            },
+                            child: Text('10 meals',
+                                style: TextStyle(
+                                    color:Colors.black
+                                )),
+                            style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                            ),
+                          ))
                     ),
-                    Positioned(
-                      left: null,
-                      top: null,
-                      right: null,
-                      bottom: null,
-                      width: 280.0,
-                      height: 38.0,
-                      child: TransformHelper.translate(
-                          x: 2.50, y: 170.00, z: 0, child: Generated10Widget()),
-                    ),
+
                     Positioned(
                       left: null,
                       top: null,

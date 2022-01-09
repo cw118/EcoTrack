@@ -50,7 +50,7 @@ class GeneratedQ1Widget extends StatelessWidget {
                   height: 34.0,
                   child: TransformHelper.translate(
                       x: -124.00,
-                      y: -344.00,
+                      y: -295.00,
                       z: 0,
                       child: GeneratedBackbuttonWidget1()),
                 ),
@@ -63,7 +63,7 @@ class GeneratedQ1Widget extends StatelessWidget {
                   height: 50.0,
                   child: TransformHelper.translate(
                       x: -1.00,
-                      y: -265.00,
+                      y: -250.00,
                       z: 0,
                       child: Generated19CleanTravellerWidget()),
                 ),
@@ -80,6 +80,8 @@ class GeneratedQ1Widget extends StatelessWidget {
                       z: 0,
                       child: GeneratedWhattypeofvehicledoyouownWidget()),
                 ),
+
+                // Motorcycle btn
                 Positioned(
                   left: null,
                   top: null,
@@ -91,21 +93,21 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -128.50,
                       z: 0,
-                      child: GeneratedRectangle7Widget()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50,
-                      y: -125.00,
-                      z: 0,
-                      child: GeneratedMotorcycleWidget()),
-                ),
+                    child: TextButton(
+                      onPressed: () {
+                        int value1 = 15;
+                      },
+                      child: Text('Motorcycle',
+                      style: TextStyle(
+                        color:Colors.black
+                      )),
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                      ),
+                    ))
+                  ),
+
+                // Small compact btn
                 Positioned(
                   left: null,
                   top: null,
@@ -117,21 +119,22 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -64.50,
                       z: 0,
-                      child: GeneratedRectangle8Widget()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 35;
+                        },
+                        child: Text('Small Compact',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 2.00,
-                      y: -62.50,
-                      z: 0,
-                      child: GeneratedSmallcompactWidget()),
-                ),
+
+
+                // Midsized car btn
                 Positioned(
                   left: null,
                   top: null,
@@ -143,18 +146,21 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 1.00,
                       y: -0.50,
                       z: 0,
-                      child: GeneratedRectangle9Widget()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 60;
+                        },
+                        child: Text('Mid sized',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 3.50, y: 3.00, z: 0, child: GeneratedMidsizedWidget()),
-                ),
+
+                // Large car btn
                 Positioned(
                   left: null,
                   top: null,
@@ -166,44 +172,20 @@ class GeneratedQ1Widget extends StatelessWidget {
                       x: 0.00,
                       y: 63.50,
                       z: 0,
-                      child: GeneratedRectangle10Widget()),
+                      child: TextButton(
+                        onPressed: () {
+                          int value = 75;
+                        },
+                        child: Text('Large',
+                            style: TextStyle(
+                                color:Colors.black
+                            )),
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 229, 229, 229))
+                        ),
+                      ))
                 ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 280.0,
-                  height: 38.0,
-                  child: TransformHelper.translate(
-                      x: 2.50, y: 67.00, z: 0, child: GeneratedLargeWidget()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 295.0,
-                  height: 51.0,
-                  child: TransformHelper.translate(
-                      x: 0.00,
-                      y: 135.50,
-                      z: 0,
-                      child: GeneratedRectangle13Widget()),
-                ),
-                Positioned(
-                  left: null,
-                  top: null,
-                  right: null,
-                  bottom: null,
-                  width: 277.0,
-                  height: 35.0,
-                  child: TransformHelper.translate(
-                      x: 1.00,
-                      y: 137.50,
-                      z: 0,
-                      child: GeneratedPickuptruckorfullsizedvanWidget()),
-                ),
+
                 Positioned(
                   left: null,
                   top: null,
