@@ -2,7 +2,7 @@
 
 This project was submitted to [SheHacks VI](https://shehacks-vi.devpost.com/), one of Canada's largest all-female and non-binary student hackathons hosted by [WITS+](https://wits-uwo.ca/). 
 
-*See [The Team](#the-team) for more details.*
+*See [The Team](#-the-team) for more details.*
 
 ### 🌱 What inspired EcoTrack
 
